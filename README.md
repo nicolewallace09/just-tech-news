@@ -17,7 +17,7 @@ The user should clone the repository from GitHub. This application requires Node
 
 ## Usage 
 This application will allow users to view, add, comment, vote, and delete blog posts.<br>
-Please view deloyed live Heroku [URL]()
+Please view deployed live Heroku [URL](https://infinite-waters-63089.herokuapp.com/)
 <img src="assets/images/screen.png">
 
 ## License 
