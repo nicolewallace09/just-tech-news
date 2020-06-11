@@ -16,7 +16,9 @@ This project is a full stack application and is CMS style blog. This application
 The user should clone the repository from GitHub. This application requires Node.js, Express.js, and Sequelize. To connect to the database run mysql -u root -p and enter password from .env file. Then source the schema.sql. To seed the file run npm run seed. Finally to connect to the server run npm start. 
 
 ## Usage 
-This application will allow users to view, add, comment, vote, and delete blog posts.
+This application will allow users to view, add, comment, vote, and delete blog posts.<br>
+Please view deloyed live Heroku [URL]()
+<img src="assets/images/screen.png">
 
 ## License 
 This project is license under MIT
