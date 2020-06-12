@@ -10,7 +10,7 @@ const helpers = require('./utils/helpers');
 const exphbs = require('express-handlebars');
 const hbs = exphbs.create({helpers});
 
-// session (connects session to sequelize Database)
+// session (connects session to sequelize Database) --> authentication 
 const session = require('express-session');
 
 const app = express();
