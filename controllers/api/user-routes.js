@@ -78,7 +78,7 @@ router.post('/', withAuth, (req, res) => {
 });
 
 // POST to identify users 
-router.post('/login', (req, res) => {
+router.post('/login', withAuth, (req, res) => {
     // expects {email: 'lernantino@gmail.com', password: 'password1234'}
     User.findOne({
         where: {
@@ -109,7 +109,7 @@ router.post('/login', (req, res) => {
 });
 
 // users to log out 
-router.post('/logout', (req, res) => {
+router.post('/logout', withAuth, (req, res) => {
     if (req.session.loggedIn) {
         req.session.destroy(() => {
             res.status(204).end();
