@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
                    [sequelize.literal('(SELECT COUNT(*) FROM vote WHERE post.id = vote.post_id)'), 'vote_count']
                 ],
       // show latest news first
-      order: [['created at', 'DESC']],
+      order: [['created_at', 'DESC']],
       // JOIN to the User table
       include: [
           // comment model -- attaches username to comment 
