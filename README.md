@@ -2,7 +2,7 @@
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description 
-This project is a full stack application and is CMS style blog. This application utilized ORM and MVC. Some of the technologies used in this application include Node, Sequelize, Express, and mySQL. This project connects the View and the Models through controller routes. 
+This project is a full stack application and is CMS style blog. This application utilized ORM and MVC. Some of the technologies used in this application include Node, Sequelize, Express, and mySQL. This project connects the View and the Models through controller routes. This application also uses Handlebars templating. 
 
 ## Table of Contents
 * [Installation](#installation)
